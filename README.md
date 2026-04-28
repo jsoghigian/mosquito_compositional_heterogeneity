@@ -140,6 +140,8 @@ The lowest GC content outgroups are Clunio marinus (Chironomidae), Culicoides so
 
 Phylogenetic inference with IQTree on the new alignments including these outgroups results in essentially the same topology (D, below) as amino acids, NT1/2, or recoding NT3(C, below):
 
+![enter image description here](https://github.com/jsoghigian/mosquito_compositional_heterogeneity/blob/main/images/multi_panel_new_og.png?raw=true)  
+
 # Ultraconserved Elements
 While analysis of protein coding genes from genomes or transcriptomes is quite common, one set of alternative markers that are regularly used are [ultraconserved elements](https:/www.ultraconserved.org/). These highly-conserved areas are often analyzed with flanking sequence data. Previously analyses have shown that many UCE sets are located predominantly in protein-coding regions (>80% in flies - See [Van Dam et al. 2021](https:/academic.oup.com/sysbio/article/70/2/307/5880562)). However, UCEs are difficult to partition - often, flanking regions include both coding and non-coding sequences, and codon positions are difficult to ascertain without additional steps, even if one knows what UCEs are protein coding and not. Moreover, non-coding regions may be subject to even more saturation than coding regions, in the same way that NT3 is typically more saturated than other codon positions.  None the less, UCEs allow for consistency recovery of phylogenetically informative loci across a wide range of species, and are substantially cheaper to generate than whole genomes or transcriptomes. Alternatives to UCEs with similar cost include hybrid or sequence capture and anchor hybrid enrichment, which often specifically target protein coding regions.
 
